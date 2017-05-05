@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property NSString* test;
 @end
 
 @implementation ViewController
