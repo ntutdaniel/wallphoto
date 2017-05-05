@@ -2,13 +2,13 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'photoWall' do
-    pod 'NitroKeychain'
-    pod 'AFNetworking'
-    pod 'MagicalRecord'
-	pod 'SDWebImage', 3.7.5
+    pod 'NitroKeychain', '1.0.0'
+    pod 'AFNetworking', '3.1.0'
+    pod 'MagicalRecord', '2.3.2'
+	pod 'SDWebImage', '3.7.5'
 
     target 'photoWallTests' do
-        pod 'Nocilla'
-        pod 'OCMock'
+        pod 'Nocilla', '0.10.0'
+        pod 'OCMock', '3.3'
     end
 end
