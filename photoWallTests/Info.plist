@@ -16,6 +16,8 @@
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>ServerEndPointKey</key>
+	<string>http://140.124.182.119:4567/ws</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 </dict>

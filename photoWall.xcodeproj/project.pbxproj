@@ -15,6 +15,11 @@
 		72CE31061EBC63470094F0A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72CE31051EBC63470094F0A0 /* Assets.xcassets */; };
 		72CE31091EBC63470094F0A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72CE31071EBC63470094F0A0 /* LaunchScreen.storyboard */; };
 		72CE31141EBC63470094F0A0 /* photoWallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CE31131EBC63470094F0A0 /* photoWallTests.m */; };
+		72D82C151EC5995E00B83131 /* RestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D82C141EC5995E00B83131 /* RestClient.m */; };
+		72D82C181EC59A4C00B83131 /* RestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D82C171EC59A4C00B83131 /* RestRequest.m */; };
+		72D82C1B1EC59B3C00B83131 /* RestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D82C1A1EC59B3C00B83131 /* RestResponse.m */; };
+		72D82C251EC5A8E000B83131 /* RestClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D82C241EC5A8E000B83131 /* RestClientTests.m */; };
+		72D82C271EC5A97400B83131 /* RestRequestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D82C261EC5A97400B83131 /* RestRequestTest.m */; };
 		8D6EFF06A82FB309F01B81C6 /* Pods_photoWall_photoWallTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5D9A4E6F4B178ECC3D931C /* Pods_photoWall_photoWallTests.framework */; };
 		C539F3EFA776E62676873A0F /* Pods_photoWall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD544AAE5DEE1C948B1945F /* Pods_photoWall.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +51,14 @@
 		72CE310F1EBC63470094F0A0 /* photoWallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photoWallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CE31131EBC63470094F0A0 /* photoWallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = photoWallTests.m; sourceTree = "<group>"; };
 		72CE31151EBC63470094F0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72D82C131EC5995E00B83131 /* RestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestClient.h; path = photoWall/RestClient/RestClient.h; sourceTree = "<group>"; };
+		72D82C141EC5995E00B83131 /* RestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestClient.m; path = photoWall/RestClient/RestClient.m; sourceTree = "<group>"; };
+		72D82C161EC59A4C00B83131 /* RestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestRequest.h; path = photoWall/RestClient/RestRequest.h; sourceTree = "<group>"; };
+		72D82C171EC59A4C00B83131 /* RestRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestRequest.m; path = photoWall/RestClient/RestRequest.m; sourceTree = "<group>"; };
+		72D82C191EC59B3C00B83131 /* RestResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestResponse.h; path = photoWall/RestClient/RestResponse.h; sourceTree = "<group>"; };
+		72D82C1A1EC59B3C00B83131 /* RestResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestResponse.m; path = photoWall/RestClient/RestResponse.m; sourceTree = "<group>"; };
+		72D82C241EC5A8E000B83131 /* RestClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestClientTests.m; sourceTree = "<group>"; };
+		72D82C261EC5A97400B83131 /* RestRequestTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestRequestTest.m; sourceTree = "<group>"; };
 		73650699BB478833093B6387 /* Pods-photoWall-photoWallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photoWall-photoWallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photoWall-photoWallTests/Pods-photoWall-photoWallTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9AC2FD2BAEF54A2C99D1080D /* Pods-photoWall-photoWallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photoWall-photoWallTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-photoWall-photoWallTests/Pods-photoWall-photoWallTests.release.xcconfig"; sourceTree = "<group>"; };
 		FA5D9A4E6F4B178ECC3D931C /* Pods_photoWall_photoWallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photoWall_photoWallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +108,9 @@
 		72CE30EA1EBC63470094F0A0 = {
 			isa = PBXGroup;
 			children = (
+				72D82C121EC5989B00B83131 /* RestClient */,
+				72D82C111EC5988A00B83131 /* View */,
+				72D82C101EC5988200B83131 /* Model */,
 				72CE30F51EBC63470094F0A0 /* photoWall */,
 				72CE31121EBC63470094F0A0 /* photoWallTests */,
 				72CE30F41EBC63470094F0A0 /* Products */,
@@ -140,10 +156,47 @@
 		72CE31121EBC63470094F0A0 /* photoWallTests */ = {
 			isa = PBXGroup;
 			children = (
+				72D82C1C1EC5A7D700B83131 /* RestClient */,
 				72CE31131EBC63470094F0A0 /* photoWallTests.m */,
 				72CE31151EBC63470094F0A0 /* Info.plist */,
 			);
 			path = photoWallTests;
+			sourceTree = "<group>";
+		};
+		72D82C101EC5988200B83131 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		72D82C111EC5988A00B83131 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		72D82C121EC5989B00B83131 /* RestClient */ = {
+			isa = PBXGroup;
+			children = (
+				72D82C131EC5995E00B83131 /* RestClient.h */,
+				72D82C141EC5995E00B83131 /* RestClient.m */,
+				72D82C161EC59A4C00B83131 /* RestRequest.h */,
+				72D82C171EC59A4C00B83131 /* RestRequest.m */,
+				72D82C191EC59B3C00B83131 /* RestResponse.h */,
+				72D82C1A1EC59B3C00B83131 /* RestResponse.m */,
+			);
+			name = RestClient;
+			sourceTree = "<group>";
+		};
+		72D82C1C1EC5A7D700B83131 /* RestClient */ = {
+			isa = PBXGroup;
+			children = (
+				72D82C241EC5A8E000B83131 /* RestClientTests.m */,
+				72D82C261EC5A97400B83131 /* RestRequestTest.m */,
+			);
+			name = RestClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,8 +403,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				72CE31041EBC63470094F0A0 /* photoWall.xcdatamodeld in Sources */,
+				72D82C181EC59A4C00B83131 /* RestRequest.m in Sources */,
+				72D82C1B1EC59B3C00B83131 /* RestResponse.m in Sources */,
 				72CE30FE1EBC63470094F0A0 /* ViewController.m in Sources */,
 				72CE30FB1EBC63470094F0A0 /* AppDelegate.m in Sources */,
+				72D82C151EC5995E00B83131 /* RestClient.m in Sources */,
 				72CE30F81EBC63470094F0A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,7 +416,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D82C251EC5A8E000B83131 /* RestClientTests.m in Sources */,
 				72CE31141EBC63470094F0A0 /* photoWallTests.m in Sources */,
+				72D82C271EC5A97400B83131 /* RestRequestTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,6 +615,7 @@
 				72CE311A1EBC63470094F0A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72CE311B1EBC63470094F0A0 /* Build configuration list for PBXNativeTarget "photoWallTests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +624,7 @@
 				72CE311D1EBC63470094F0A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
