@@ -15,14 +15,24 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="576-7b-Por">
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ZLW-ff-aZI">
                     <rect key="frame" x="169" y="315" width="37" height="37"/>
-                </activityIndicatorView>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eKt-So-cUe">
+                            <rect key="frame" x="0.0" y="0.0" width="37" height="37"/>
+                            <subviews>
+                                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="576-7b-Por">
+                                    <rect key="frame" x="0.0" y="0.0" width="37" height="37"/>
+                                </activityIndicatorView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
             </subviews>
             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.2519263698630137" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="576-7b-Por" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="0Wl-3C-c63"/>
-                <constraint firstItem="576-7b-Por" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="U6S-Rc-N3f"/>
+                <constraint firstItem="ZLW-ff-aZI" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="dL6-ra-k18"/>
+                <constraint firstItem="ZLW-ff-aZI" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="mo2-Qc-vwm"/>
             </constraints>
         </view>
     </objects>

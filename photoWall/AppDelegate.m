@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "MagicalRecord/MagicalRecord.h"
+
+// View Controller
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,6 +23,13 @@
 //程式第一個啟動的method(1)
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    [MagicalRecord setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"photoWall"];//初始化coreData
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];//取得找個畫面的大小
+
+    [self showLoginView];
+    [self.window makeKeyAndVisible];
+    //產生window
     return YES;
 }
 
@@ -96,6 +107,14 @@
         NSLog(@"Unresolved error %@, %@", error, error.userInfo);
         abort();
     }
+}
+
+#pragma mark - Private Methods
+
+-(void)showLoginView{
+    LogInViewController* loginController = [[LogInViewController alloc] initWithNibName:@"LogInView" bundle:nil];
+
+    [self.window setRootViewController:loginController];
 }
 
 @end

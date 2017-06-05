@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7220126A1ECECE700012921D /* _User.m in Sources */ = {isa = PBXBuildFile; fileRef = 722012691ECECE700012921D /* _User.m */; };
 		72CE30F81EBC63470094F0A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CE30F71EBC63470094F0A0 /* main.m */; };
 		72CE30FB1EBC63470094F0A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CE30FA1EBC63470094F0A0 /* AppDelegate.m */; };
 		72CE30FE1EBC63470094F0A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CE30FD1EBC63470094F0A0 /* ViewController.m */; };
@@ -22,7 +23,7 @@
 		72D82C271EC5A97400B83131 /* RestRequestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D82C261EC5A97400B83131 /* RestRequestTest.m */; };
 		72D82C2C1EC5AE3100B83131 /* MaskView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72D82C2B1EC5AE3100B83131 /* MaskView.xib */; };
 		72D82C301EC5B02D00B83131 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D82C2E1EC5B02D00B83131 /* LogInViewController.m */; };
-		72D82C311EC5B02D00B83131 /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72D82C2F1EC5B02D00B83131 /* LogInViewController.xib */; };
+		72D82C311EC5B02D00B83131 /* LogInView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72D82C2F1EC5B02D00B83131 /* LogInView.xib */; };
 		8D6EFF06A82FB309F01B81C6 /* Pods_photoWall_photoWallTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5D9A4E6F4B178ECC3D931C /* Pods_photoWall_photoWallTests.framework */; };
 		C539F3EFA776E62676873A0F /* Pods_photoWall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD544AAE5DEE1C948B1945F /* Pods_photoWall.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,9 @@
 /* Begin PBXFileReference section */
 		00F8C00C4C07F03CAE7BCAA2 /* Pods-photoWall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photoWall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photoWall/Pods-photoWall.debug.xcconfig"; sourceTree = "<group>"; };
 		70DF7B1DB542BDAF02A00E10 /* Pods-photoWall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photoWall.release.xcconfig"; path = "Pods/Target Support Files/Pods-photoWall/Pods-photoWall.release.xcconfig"; sourceTree = "<group>"; };
+		722012681ECECE700012921D /* _User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _User.h; path = photoWall/CoreData/_User.h; sourceTree = "<group>"; };
+		722012691ECECE700012921D /* _User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _User.m; path = photoWall/CoreData/_User.m; sourceTree = "<group>"; };
+		7220126B1ECEE9DD0012921D /* photoWall.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = photoWall.entitlements; sourceTree = "<group>"; };
 		72CE30F31EBC63470094F0A0 /* photoWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CE30F71EBC63470094F0A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		72CE30F91EBC63470094F0A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,7 +69,7 @@
 		72D82C2B1EC5AE3100B83131 /* MaskView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MaskView.xib; sourceTree = "<group>"; };
 		72D82C2D1EC5B02D00B83131 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogInViewController.h; path = View/LogInViewController.h; sourceTree = "<group>"; };
 		72D82C2E1EC5B02D00B83131 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogInViewController.m; path = View/LogInViewController.m; sourceTree = "<group>"; };
-		72D82C2F1EC5B02D00B83131 /* LogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LogInViewController.xib; path = View/LogInViewController.xib; sourceTree = "<group>"; };
+		72D82C2F1EC5B02D00B83131 /* LogInView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LogInView.xib; path = View/LogInView.xib; sourceTree = "<group>"; };
 		73650699BB478833093B6387 /* Pods-photoWall-photoWallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photoWall-photoWallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photoWall-photoWallTests/Pods-photoWall-photoWallTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9AC2FD2BAEF54A2C99D1080D /* Pods-photoWall-photoWallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photoWall-photoWallTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-photoWall-photoWallTests/Pods-photoWall-photoWallTests.release.xcconfig"; sourceTree = "<group>"; };
 		FA5D9A4E6F4B178ECC3D931C /* Pods_photoWall_photoWallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photoWall_photoWallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +116,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		722012671ECECD2B0012921D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				722012681ECECE700012921D /* _User.h */,
+				722012691ECECE700012921D /* _User.m */,
+			);
+			name = CoreData;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		72CE30EA1EBC63470094F0A0 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +149,8 @@
 		72CE30F51EBC63470094F0A0 /* photoWall */ = {
 			isa = PBXGroup;
 			children = (
+				7220126B1ECEE9DD0012921D /* photoWall.entitlements */,
+				722012671ECECD2B0012921D /* CoreData */,
 				72D82C2A1EC5AE0400B83131 /* RestClient */,
 				72D82C291EC5ADDE00B83131 /* Model */,
 				72D82C281EC5ADCC00B83131 /* View */,
@@ -185,7 +201,7 @@
 				72D82C2B1EC5AE3100B83131 /* MaskView.xib */,
 				72D82C2D1EC5B02D00B83131 /* LogInViewController.h */,
 				72D82C2E1EC5B02D00B83131 /* LogInViewController.m */,
-				72D82C2F1EC5B02D00B83131 /* LogInViewController.xib */,
+				72D82C2F1EC5B02D00B83131 /* LogInView.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -267,6 +283,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 88SXCJ7JZD;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					72CE310E1EBC63470094F0A0 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -304,7 +325,7 @@
 				72CE31091EBC63470094F0A0 /* LaunchScreen.storyboard in Resources */,
 				72CE31061EBC63470094F0A0 /* Assets.xcassets in Resources */,
 				72CE31011EBC63470094F0A0 /* Main.storyboard in Resources */,
-				72D82C311EC5B02D00B83131 /* LogInViewController.xib in Resources */,
+				72D82C311EC5B02D00B83131 /* LogInView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +436,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7220126A1ECECE700012921D /* _User.m in Sources */,
 				72D82C301EC5B02D00B83131 /* LogInViewController.m in Sources */,
 				72CE31041EBC63470094F0A0 /* photoWall.xcdatamodeld in Sources */,
 				72D82C181EC59A4C00B83131 /* RestRequest.m in Sources */,
@@ -561,6 +583,7 @@
 			baseConfigurationReference = 00F8C00C4C07F03CAE7BCAA2 /* Pods-photoWall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = photoWall/photoWall.entitlements;
 				DEVELOPMENT_TEAM = 88SXCJ7JZD;
 				INFOPLIST_FILE = photoWall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -574,6 +597,7 @@
 			baseConfigurationReference = 70DF7B1DB542BDAF02A00E10 /* Pods-photoWall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = photoWall/photoWall.entitlements;
 				DEVELOPMENT_TEAM = 88SXCJ7JZD;
 				INFOPLIST_FILE = photoWall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
